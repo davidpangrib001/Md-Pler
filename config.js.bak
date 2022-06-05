@@ -30,16 +30,16 @@ global.APIKeys = { // APIKey Here
 }
 
 //global.wm = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝑭𝒐𝒌𝒖𝒔𝑰𝑫'
-global.wait = '*WAIT!*\n_Mohon Tunggu Sebentar.._'
-global.eror = '*ERROR!*\n_Terjadi Kesalahan.._'
+global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
+global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons=========//
-global.dtu = 'My Groups'
-global.urlnya = "https://chat.whatsapp.com/GfwblXDHAqF4iA27wk8Gf4"
+global.dtu = 'My Website'
+global.urlnya = "https://PilarV2.github.io"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 821 6026 8332'
+global.phn = '+62 896 2555 6161'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'

@@ -27,18 +27,18 @@ module.exports = {
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
         global.img = pickRandom(global.waifu)
         global.fla = pickRandom(global.flaaa)
-        global.namabot = '𝖮𝗇𝖾 𝖡𝗈𝗍𝗓'
-        global.packname = '𝖮𝗇𝖾 𝖡𝗈𝗍𝗓\nBuat Stikermu Disini:\nwa.me/6282128475388''
+        global.namabot = conn.user.name
+        global.packname = global.namabot
         //global.author = global.data.owner
-        global.author = ''
-        global.wm2 = '𝗢𝗻𝗲 𝗕𝗼𝘁𝘇 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱'
+        global.author = 'By Pilar'
+        global.wm2 = global.data.namabot + ' ' + global.data.owner
         global.wm = namabot
         global.colong1 = 'Ciss '
-        global.colong2 = 'By David'
+        global.colong2 = 'By Pilar'
         global.kontak2 = [
-        ['6282160268332', 'Davitt?', 'Raja Satir Bilek', 'pilarbilek302@gmail.com', true],
-        ['6282128475388', await this.getName('62896255561612@s.whatsapp.net'), 'Bilek', 'sa0066588@gmail.com', true],
-        ['0', 'OneBotz', 'Bot WhatsApp', 'Nothing!', true],
+        ['6289625556161', 'PilarBilek', 'Raja Satir Bilek', 'pilarbilek302@gmail.com', true],
+        ['62896255561612', await this.getName('62896255561612@s.whatsapp.net'), 'Bilek', 'sa0066588@gmail.com', true],
+        ['6289625556161', 'BOTKANJUD', 'Bot WhatsApp', 'Nothing!', true],
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -652,10 +652,10 @@ module.exports = {
 	{
   contextInfo: { mentionedJid: [user],
     externalAdReply :{
-    mediaUrl: 'https://chat.whatsapp.com/GfwblXDHAqF4iA27wk8Gf4',
+    mediaUrl: 'PilarV2.github.io',
     mediaType: 2,
-    description: 'Hello!', 
-    title: '𝗢𝗻𝗲 𝗕𝗼𝘁𝘇 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱',
+    description: 'https://chat.whatsapp.com/BkxbwERGX9x0mAhAsiDWxP', 
+    title: 'ZEUSBOTZ-MD BY PILAR',
     body: '',
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: ''

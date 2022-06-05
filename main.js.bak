@@ -90,14 +90,14 @@ if (opts['big-qr'] || opts['server']) conn.ev.on('qr', qr => generate(qr, { smal
 if (opts['server']) require('./server')(global.conn, PORT)
 
 async function connectionUpdate(update) {
-  console.log(require('chalk').redBright('Connecting To You WhatsApp..'))
+  console.log(require('chalk').redBright('Mengaktifkan Bot, Harap tunggu sebentar...'))
   const { connection, lastDisconnect } = update
   global.timestamp.connect = new Date
   if (lastDisconnect && lastDisconnect.error && lastDisconnect.error.output && lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut && conn.ws.readyState !== WebSocket.CONNECTING) {
     console.log(global.reloadHandler(true))
   }
   if (global.db.data == null) await loadDatabase()
-    await conn.hehe("6282128475388@s.whatsapp.net", global.ftoli)
+    await conn.hehe("6289625556161@s.whatsapp.net", global.ftoli)
   //console.log(JSON.stringify(update, null, 4))
 }
 

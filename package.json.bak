@@ -1,7 +1,7 @@
 {
-    "name": "OneBotz",
-    "version": "0.712",
-    "description": "Simple Bot WhatsApp with Baileys Multi Device",
+    "name": "ZeusBotz",
+    "version": "2.2.5",
+    "description": "Simle Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
